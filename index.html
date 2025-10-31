@@ -4,20 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>RoboEnergiQ — Home</title>
+  <meta name="description" content="RoboEnergiQ — energy-efficient robotics research and demos by Ian Nunes. Demonstration: QR-based sorting as a use-case to show energy savings. Mentor: Sir Vincent Toscano.">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- 🔹 NAVIGATION BAR -->
+  <!-- NAV -->
   <header class="site-header">
     <div class="header-inner">
-      <!-- Logo (clickable home link) -->
       <a class="logo" href="index.html">
-        <img src="RoboEnergiQ.png" alt="RoboEnergiQ logo">
+        <img src="Pics/RoboEnergiQ.png" alt="RoboEnergiQ logo">
       </a>
 
-      <!-- Menu -->
       <nav class="main-nav" aria-label="Main navigation">
         <ul>
           <li><a href="preview.html">Preview</a></li>
@@ -37,12 +36,15 @@
     </div>
   </header>
 
-  <!-- 🔹 HERO SECTION -->
+  <!-- HERO -->
   <section class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-inner">
       <h1 class="hero-title">RoboEnergiQ</h1>
-      <p class="hero-sub">Smart QR-Sorting Arm — Energy-Optimized Packaging System (WSRO)</p>
+      <p class="hero-sub">
+        Energy-efficient robotics research and solutions.
+        <strong>Sorting is used as a demonstration</strong> to show how intelligent control and sensing can reduce energy consumption in automated systems.
+      </p>
 
       <div class="hero-buttons">
         <a href="working.html" class="btn">Open Dashboard</a>
@@ -51,34 +53,42 @@
     </div>
   </section>
 
-  <!-- 🔹 INTRO -->
+  <!-- MAIN -->
   <main class="site-main">
     <section class="section intro">
       <h2>About the Project</h2>
       <p>
-        <strong>RoboEnergiQ</strong> is an intelligent energy-efficient robotic system developed for the
-        WSRO Young Scientist — Algorithm Open category. It features a smart QR-based sorting arm that
-        automatically identifies and organizes items into categories to minimize energy consumption.
+        <strong>RoboEnergiQ</strong> is an independent project by <strong>Ian Nunes</strong> focused on improving **energy efficiency in robotics**. The project investigates how better sensing, motion planning, hardware choices, and energy-aware control strategies can reduce the power draw of robotic manipulators.
       </p>
     </section>
 
     <section class="section highlights">
       <h2>Highlights</h2>
       <ul>
-        <li>⚙️ Real-time energy monitoring using INA219 sensors</li>
-        <li>📷 Camera-based QR scanning and object detection</li>
-        <li>🤖 Intelligent motion control with Arduino + Python</li>
-        <li>💡 Optimized power use for efficient packaging and sorting</li>
+        <li>⚡ Primary focus: designing energy-efficient robotic control and hardware</li>
+        <li>📦 Secondary demonstration: QR-based sorting arm that shows practical energy savings in packaging tasks</li>
+        <li>📈 Real-time energy monitoring using INA219 sensors to measure improvements</li>
+        <li>📷 Camera-based QR scanning and lightweight vision for low-power decision making</li>
+        <li>🤖 Algorithms implemented with Arduino + Python, optimized for reduced motion energy</li>
       </ul>
+    </section>
+
+    <section class="section goals">
+      <h2>Goals</h2>
+      <p>
+        Measure, analyze and minimize energy use during typical robotic tasks; produce repeatable comparisons that show how algorithmic and hardware changes reduce power consumption. Use the sorting demo as a measurable example of how smarter robotics can save energy.
+      </p>
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="footer-inner">
-      <small>© 2025 BrighTech — Team Active | WSRO Project</small>
+      <small>© 2025 RoboEnergiQ — Developed by Ian Nunes | Mentor: Sir Vincent Toscano</small>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
